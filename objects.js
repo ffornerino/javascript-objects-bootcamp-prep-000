@@ -1,4 +1,4 @@
-var playlist = new Object({Maluna: 'HP'});
+var playlist = new Object({Maluma: 'HP'});
 //object['Post Malone'] = 'Goodbyes';
 
 function updatePlaylist (object, key, value){
@@ -7,4 +7,5 @@ function updatePlaylist (object, key, value){
 }
  function removeFromPlaylist(object, key){
    delete object.key;
+   return object;
  }
